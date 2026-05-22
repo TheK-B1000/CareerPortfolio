@@ -172,8 +172,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.7 }}
               className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed"
             >
-              I build intelligent, interactive systems across gameplay, machine
-              learning, and mixed reality — driven by a long-term mission to one
+              I build intelligent, interactive systems across gameplay, artificial 
+              intelligence, and mixed reality — driven by a long-term mission to one
               day help build the AI that runs tomorrow's space stations.
             </motion.p>
 

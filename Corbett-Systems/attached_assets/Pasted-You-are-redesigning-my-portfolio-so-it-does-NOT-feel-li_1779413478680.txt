@@ -1,0 +1,161 @@
+You are redesigning my portfolio so it does NOT feel like a generic AI-generated portfolio.
+
+Project:
+K-B10X Portfolio — a cinematic, sci-fi single-page portfolio built with React + Vite + Tailwind v4 + Framer Motion.
+
+Goal:
+Keep the current content and section structure, but completely elevate the UI/UX direction. I want it to feel custom, intentional, recruiter-friendly, and memorable. Use strong UI/UX principles, not random flashy effects.
+
+Important:
+Do not make it look like a template.
+Do not overuse gradients, glowing cards, generic glassmorphism, or AI-looking “cyberpunk dashboard” clutter.
+Make it feel like a cinematic mission archive / space systems command portfolio.
+The vibe should be: NASA mission control × sci-fi field dossier × premium developer portfolio.
+
+Current sections, top to bottom:
+- Hero
+- Mission Control
+- About
+- Featured Missions
+- Additional Deployments
+- Project Dossiers modal
+- Systems
+- Stack
+- Roles
+- Logs
+- Comm
+- Navbar
+- Footer
+
+Design direction:
+Create a unique visual system called “Mission Archive OS.”
+
+Use:
+- Strong spacing and hierarchy
+- Editorial-style typography
+- Subtle sci-fi interface details
+- Asymmetric layouts where appropriate
+- Mission dossier cards instead of generic project cards
+- Clear recruiter scanning paths
+- Strong CTA placement
+- Elegant motion, not noisy motion
+- Microinteractions that feel engineered
+- Accessible contrast
+- Responsive mobile-first polish
+
+Hero:
+Keep the full-screen cinematic intro, animated starfield, name, tagline, and CTAs:
+“View Featured Missions”
+“Download Resume”
+“Contact Me”
+
+But redesign the hero so it feels like the opening screen of a mission system. Add visual layers like:
+- orbital grid lines
+- mission status labels
+- subtle telemetry text
+- signal scan animation
+- one strong focal panel introducing me
+
+Mission Control:
+Make the stats strip feel like real system telemetry, not plain cards.
+Stats:
+- 8 Active Missions
+- 3 Domains Engineered: AI / Games / XR
+- MS CS target
+- North Star: AI for space stations
+
+Projects:
+Redesign project cards as “mission dossiers.”
+Each card should include:
+- mission codename
+- domain tag
+- short impact statement
+- tech stack chips
+- status badge
+- “Open Dossier” action
+
+Featured Missions:
+- SEA-GUARD should be the hero project and span 2 columns
+- Quantum Strike
+- Acera AI
+
+Additional Deployments:
+- CTF
+- Pac-Man DQN
+- Hope Haven CRMS
+- Snap2Cal
+- Tomatoes vs Trollies
+
+Project Dossiers:
+Keep the full-screen modal functionality.
+Improve it visually:
+- left side: mission identity, role, status, tech
+- right side: Overview, What I Built, Impact, Tech Stack
+- add smooth enter/exit animation
+- add keyboard accessibility
+- add visible close button
+- make mobile layout excellent
+
+Systems:
+Redesign the 4 capability pillars:
+- AI & Machine Learning
+- Game Development & XR
+- Intelligent Software Systems
+- Future Focus: Space Systems
+
+Make them feel like operating systems/modules, not normal feature cards.
+
+Stack:
+Make the skills grid scannable and clean. Group skills by category.
+
+Roles:
+Make the 5 recruiter targets feel like career alignment cards:
+- AI/ML Engineer
+- Gameplay Programmer
+- XR/Spatial Developer
+- Software Engineer
+- Autonomous Systems
+
+Logs:
+Make timeline feel like a mission log with dates, milestones, and short readable entries.
+
+Navbar:
+Keep fixed top nav:
+K-B10X brand
+Scroll-spy links:
+Missions, Systems, Stack, Roles, Logs, Comm
+Mobile hamburger menu
+
+Footer:
+Keep “All systems nominal.”
+
+Technical requirements:
+- Keep React + Vite + Tailwind v4 + Framer Motion
+- Preserve existing functionality
+- Preserve project modal interactions
+- Preserve scroll-spy navigation
+- Preserve mobile menu
+- Preserve resume download CTA
+- Preserve contact CTA
+- Do not break accessibility
+- Do not remove content unless replacing it with better structured content
+- Use reusable components
+- Keep code clean and easy to edit
+
+UX quality bar:
+Before finishing, audit the design for:
+1. Does this look custom?
+2. Can a recruiter understand my value in 30 seconds?
+3. Are the projects easy to scan?
+4. Does the sci-fi theme support the content instead of distracting from it?
+5. Does mobile feel intentional?
+6. Are animations smooth and purposeful?
+7. Does anything look like a generic AI portfolio? If yes, redesign it.
+
+Deliver:
+- Refactored components
+- Improved layout
+- Improved responsive styling
+- Better motion system
+- Better project dossier modal
+- Clear comments only where helpful

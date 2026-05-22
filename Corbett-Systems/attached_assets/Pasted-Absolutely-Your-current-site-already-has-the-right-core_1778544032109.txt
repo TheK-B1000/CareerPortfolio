@@ -1,0 +1,142 @@
+Absolutely. Your current site already has the right core projects: SEA-GUARD, Quantum Strike, Acera, Pac-Man DQN, CTF AI, Hope Haven. The new portfolio should turn that into a cinematic “AI game engineer for space systems” command center. Your current site frames you around software, game dev, AI, immersive tech, and projects like SEA-GUARD and Quantum Strike, so we’ll evolve that instead of replacing your identity.  ￼
+
+Portfolio Concept
+
+Theme:
+“The AI Game Engineer Building Toward Space Autonomy”
+
+Visual style:
+
+Dark sci-fi dashboard, holographic cards, orbital motion, subtle stars, neon blue/purple/green accents, game UI energy, space map feel.
+
+Pages / Sections
+
+1. Hero
+    * “Kevin-Brandon J. Corbett”
+    * “AI Engineer • Game Developer • Space Systems Dreamer”
+    * CTA buttons: View Projects, Contact Me, GitHub
+2. Mission Statement
+    * Short section explaining your blend:
+    * video games + AI + immersive systems + space autonomy.
+3. Featured Projects
+    * SEA-GUARD: Multi-Agent RL CTF
+    * Quantum Strike: Mixed Reality Game
+    * Acera AI Assistant
+    * Pac-Man Deep Q-Learning
+    * Hope Haven Inventory System
+    * Tomatoes vs Trollies
+4. Skill Constellation
+    * AI/ML
+    * Game Development
+    * Space/Autonomy
+    * Full-Stack/Software Engineering
+5. Interactive Timeline
+    * BS Information Science
+    * Software Engineer / XR work
+    * MS Computer Science
+    * MARL research
+    * Future: AI for space habitats/manufacturing
+6. Contact Dock
+    * GitHub
+    * LinkedIn
+    * Email
+    * Resume button
+
+Replit Agent Prompt
+
+Paste this into Replit:
+
+You are a senior frontend engineer and UI/UX designer.
+Build me a badass personal portfolio website for Kevin-Brandon J. Corbett.
+Theme:
+Dark cinematic sci-fi portfolio inspired by video games, artificial intelligence, and space exploration. The design should feel like a futuristic command center, orbital HUD, and game menu combined.
+Tech stack:
+Use React + Vite + TypeScript + Tailwind CSS.
+Use Framer Motion for animations.
+Use lucide-react for icons.
+Do not use paid APIs.
+Do not add backend yet.
+Brand identity:
+Kevin-Brandon J. Corbett
+AI Engineer • Game Developer • Software Engineer • Space Autonomy Builder
+Core message:
+I build intelligent interactive systems across video games, AI, mixed reality, and future space autonomy.
+Design requirements:
+- Dark space background with subtle stars/grid effects
+- Neon blue, purple, cyan, and green accents
+- Glassmorphism project cards
+- Animated hero section
+- Smooth scrolling navigation
+- Responsive mobile-first layout
+- Game HUD inspired section dividers
+- Project cards should feel like selectable game missions
+- Add subtle hover effects, glowing borders, and motion transitions
+- Keep performance lightweight
+Pages/sections:
+1. Hero
+2. About / Mission
+3. Featured Projects
+4. Skills
+5. Timeline
+6. Contact
+Hero copy:
+Kevin-Brandon J. Corbett
+AI Engineer. Game Developer. Space Systems Dreamer.
+I build intelligent, interactive systems that blend gameplay, machine learning, mixed reality, and autonomy.
+Featured projects:
+1. SEA-GUARD: Multi-Agent RL Capture the Flag
+Description: PPO-based multi-agent reinforcement learning system using curriculum and league-style opponent training for autonomous surface vessel capture-the-flag simulations.
+Tags: Python, MARL, PPO, Reinforcement Learning, Simulation
+2. Quantum Strike
+Description: Mixed reality game where players defend the Quantum Realm with PvP maps, horde survival, loot upgrades, and immersive combat.
+Tags: Unity, C#, Mixed Reality, Game Design
+3. Acera AI Assistant
+Description: AI assistant built with Python, OpenAI, Pygame, speech recognition, gesture control, and smart interaction features.
+Tags: Python, AI, Voice, Gesture Control
+4. Pac-Man Deep Q-Learning AI
+Description: Deep Q-learning agent that learns to play Pac-Man using reinforcement learning and game-state processing.
+Tags: Python, TensorFlow, DQN, Pygame
+5. Hope Haven Inventory System
+Description: Inventory management system using Azure, C#, Quartz.NET, and SQL to improve operational workflows.
+Tags: C#, SQL, Azure, Software Engineering
+6. Tomatoes vs Trollies
+Description: Tower defense game made during a 10-day game jam and livestream, combining quirky strategy with fast development.
+Tags: Game Jam, 2D Art, Unity, Design
+Skills:
+- AI / Machine Learning: Python, TensorFlow, Reinforcement Learning, Multi-Agent RL, CNNs
+- Game Development: Unity, Unreal Engine, C#, C++, Gameplay Systems, Mixed Reality
+- Software Engineering: SQL, Azure, Git, Jira, Full-Stack Systems
+- Space Autonomy Interests: Autonomous systems, simulation, AI-driven habitats, space manufacturing
+Timeline:
+- Bachelor’s in Information Science
+- Software Engineer working in XR and mixed reality
+- Master’s in Computer Science, expected 2026
+- Research focus: Multi-agent reinforcement learning and autonomous systems
+- Long-term mission: AI-driven space systems and intelligent habitats
+Contact section:
+Add buttons for GitHub, LinkedIn, Email, and Resume.
+Implementation requirements:
+- Organize components cleanly:
+  src/components/Hero.tsx
+  src/components/About.tsx
+  src/components/Projects.tsx
+  src/components/Skills.tsx
+  src/components/Timeline.tsx
+  src/components/Contact.tsx
+  src/data/projects.ts
+  src/data/skills.ts
+- Use reusable ProjectCard and SectionHeader components.
+- Make the code clean, typed, and easy to extend.
+- Include placeholder links for GitHub, LinkedIn, resume, and email.
+- Add comments only where useful.
+- Make the final result polished and deployable.
+
+Best Name for the Site
+
+**Kevin-Brandon Corbett | AI Game
+
+Engineer**
+
+Tagline:
+
+Building intelligent worlds, from games to space.

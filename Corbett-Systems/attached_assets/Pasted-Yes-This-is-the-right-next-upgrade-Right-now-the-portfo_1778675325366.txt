@@ -1,0 +1,249 @@
+Yes. This is the right next upgrade. Right now the portfolio has a cool cyber-command vibe, but the project cards feel a little flat and cramped. They need to feel like **mission terminals** you can physically dive into. 🛸
+
+Here’s what I would tell Replit/Cursor to do next.
+
+## Priority 1: Fix “Download Resume”
+
+The button likely fails because the resume file is either:
+
+1. missing from the public folder,
+2. linked to the wrong path,
+3. using a React route instead of a static asset path,
+4. or the file name has spaces/capitalization that does not match.
+
+Put the resume here:
+
+```txt
+/public/Kevin-Brandon-Corbett-Resume.pdf
+```
+
+Then the button should be:
+
+```tsx
+<a
+  href="/Kevin-Brandon-Corbett-Resume.pdf"
+  download="Kevin-Brandon-Corbett-Resume.pdf"
+  className="resume-button"
+>
+  Download Resume
+</a>
+```
+
+If it opens instead of downloading, that is still acceptable, but the `download` attribute should force download in most browsers.
+
+---
+
+## Priority 2: Upgrade the project cards
+
+The cards should become bigger, deeper, and more interactive.
+
+Current issue:
+
+```txt
+Card = flat dossier preview
+```
+
+Target:
+
+```txt
+Card = 3D mission file / holographic case file / interactive portal
+```
+
+Each card should have:
+
+```txt
+Large cinematic image
+3D tilt on hover
+glowing border
+depth shadow
+bigger typography
+status badge
+tech tags
+“View Dossier”
+click-to-expand behavior
+expanded detail panel
+```
+
+When clicked, the card should grow into a larger focused state and reveal:
+
+```txt
+Problem
+My Role
+Tech Stack
+What I Built
+Results / Impact
+Screenshots or media
+GitHub / Live Demo links
+```
+
+This is much better than sending users away too early. Make them feel like they opened a mission file.
+
+---
+
+## Replit Prompt: Next Upgrade
+
+Paste this into Replit:
+
+```txt
+You are a senior UI/UX engineer and frontend animation specialist.
+
+I need you to improve my portfolio project section and fix the resume download button.
+
+TASK 1: Fix Download Resume
+- Make sure the resume PDF is served from the public folder.
+- Use this path: /Kevin-Brandon-Corbett-Resume.pdf
+- Update the Download Resume button to use a real anchor tag with:
+  href="/Kevin-Brandon-Corbett-Resume.pdf"
+  download="Kevin-Brandon-Corbett-Resume.pdf"
+- If the file does not exist, create a placeholder instruction in the README telling me exactly where to place the resume PDF.
+
+TASK 2: Redesign Project Cards
+The current project cards are too flat and cramped. Redesign them so they feel bigger, more premium, more 3D, and more interactive.
+
+Design direction:
+- Dark sci-fi interface
+- Holographic mission dossier cards
+- 3D depth
+- Larger cards
+- Stronger image presence
+- Neon edge glow
+- Subtle grid/scanline overlay
+- Cinematic hover state
+- Premium portfolio feeling
+- Inspired by game UI, space systems, cyberpunk dashboards, and mission terminals
+
+Card behavior:
+- Cards should have a subtle 3D tilt on hover using CSS transform/perspective.
+- Cards should lift upward and glow on hover.
+- Clicking a card expands it into a larger focused card or modal-like detail view.
+- The expanded view should reveal more details:
+  - Overview
+  - My Role
+  - Tech Stack
+  - What I Built
+  - Impact
+  - Links for GitHub / Live Demo when available
+- Add a close button or “Back to missions” button so the user can collapse the card.
+- Make sure this works on mobile too. On mobile, use tap-to-expand without awkward hover-only behavior.
+
+Visual improvements:
+- Make project cards larger.
+- Give the SEA-GUARD card more horizontal dominance because it is my strongest AI/research project.
+- Use a featured project layout:
+  - SEA-GUARD should be a large featured card.
+  - Quantum Strike and Gesture Control App can be secondary cards.
+- Use better spacing between cards.
+- Add card depth with box-shadow, layered borders, gradient overlays, and pseudo-elements.
+- Add a glowing animated border on hover.
+- Add a small status badge like ACTIVE, DEPLOYED, RESEARCH, or PROTOTYPE.
+- Add a “mission number” label.
+- Add a “View Dossier” CTA.
+
+Implementation requirements:
+- Keep the existing design language, but make it more polished.
+- Do not break routing.
+- Do not remove existing content.
+- Use clean React state to track which project is expanded.
+- Create reusable components if helpful:
+  - ProjectCard
+  - ProjectExpandedView
+  - TechTag
+  - StatusBadge
+- Add keyboard accessibility:
+  - Cards should be focusable.
+  - Enter/Space should open the card.
+  - Escape should close the expanded view.
+- Add aria-labels where needed.
+- Respect reduced motion using prefers-reduced-motion.
+
+Acceptance criteria:
+- Download Resume works.
+- Project cards are visibly larger and more premium.
+- Hovering over a project card creates a 3D lift/tilt effect.
+- Clicking a card expands it and reveals more project details.
+- There is a clear way to close the expanded card.
+- Mobile layout still looks clean.
+- No TypeScript errors.
+- No console errors.
+```
+
+---
+
+## Suggested card content structure
+
+For **SEA-GUARD**, make it the hero card:
+
+```txt
+SEA-GUARD: Multi-Agent RL CTF
+
+Role:
+Lead MARL Researcher
+
+Overview:
+A PPO-based multi-agent reinforcement learning system for autonomous surface vessel capture-the-flag simulations.
+
+What I Built:
+- Curriculum training pipeline
+- League-style opponent training
+- Scripted adversary phases
+- Team-consistent reward shaping
+- Evaluation against seen and unseen opponents
+
+Tech:
+Python, MARL, PPO, Reinforcement Learning, Simulation
+
+Impact:
+Built as a research-grade AI autonomy project focused on coordination, defense, interception, and generalization.
+```
+
+For **Quantum Strike**:
+
+```txt
+Quantum Strike
+
+Role:
+Game Designer & Engineer
+
+Overview:
+A mixed reality action game where players defend the Quantum Realm through PvP combat, horde survival, loot upgrades, and immersive spatial gameplay.
+
+Tech:
+Unity, C#, Mixed Reality, Game Design
+```
+
+For **Gesture Control App**:
+
+```txt
+Gesture Control App
+
+Role:
+AI / Interaction Developer
+
+Overview:
+A hands-free control system that uses gesture recognition to interact with technology in a more natural way.
+
+Tech:
+Python, Computer Vision, AI, Gesture Control
+```
+
+---
+
+## What I would make it feel like
+
+When someone clicks a project, it should feel like:
+
+```txt
+the card unlocks,
+slides forward,
+the background dims,
+the image blooms,
+and the project becomes a command dossier.
+```
+
+Not just “here is a card.” More like:
+
+```txt
+MISSION FILE OPENED
+```
+
+That is the vibe. Right now the site whispers “portfolio.” This change makes it say **candidate with a cinematic brain and engineering teeth**.

@@ -1,0 +1,34 @@
+Perfect. That means you can honestly use PyTorch, NumPy, and pandas on the resume. The key is not to bury it in a skills list. Put it directly into the project bullets where it proves something.
+
+Use this for your Reinforcement Learning CTF project:
+
+AI Engineer, Reinforcement Learning CTF, School Project                    08/2025 - Present
+• Python + PyTorch + PPO: built and trained neural-network policies for a multi-agent reinforcement learning simulation.
+• PyTorch tensors + CUDA-ready environment: implemented vectorized simulation logic for state, dynamics, observations, rewards, and metrics.
+• NumPy + pandas: analyzed experiment logs, routing behavior, win rates, policy stability, and generalization across scripted and held-out opponents.
+
+That is stronger than your current version because it directly hits the AI Engineer checklist:
+
+Python ✅
+PyTorch ✅
+NumPy ✅
+pandas ✅
+ML/RL ✅
+Agentic systems ✅
+Evaluation ✅
+
+For a shorter resume version, use this:
+
+AI Engineer, Reinforcement Learning CTF, School Project                    08/2025 - Present
+• Python + PyTorch + PPO: trained multi-agent reinforcement learning policies for attack, defense, and coordination behavior.
+• Built CUDA-ready PyTorch tensor simulation logic for environment state, observations, dynamics, rewards, and metrics.
+• Used NumPy and pandas to analyze win rates, routing behavior, policy stability, and generalization.
+
+My favorite version for your resume is this one:
+
+AI Engineer, Reinforcement Learning CTF, School Project                    08/2025 - Present
+• Python + PyTorch + PPO: trained multi-agent reinforcement learning policies for coordinated capture-the-flag behavior.
+• Built a CUDA-ready PyTorch tensor environment for state, dynamics, observations, rewards, and evaluation metrics.
+• Used NumPy and pandas to analyze win rates, policy stability, routing behavior, and generalization against held-out opponents.
+
+That bullet set has teeth. It does not sound like “I watched a PyTorch tutorial once.” It sounds like you used PyTorch as the engine room of the project.

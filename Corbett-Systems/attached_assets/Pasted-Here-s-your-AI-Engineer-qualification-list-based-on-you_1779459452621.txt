@@ -1,0 +1,83 @@
+Here’s your AI Engineer qualification list, based on your actual work and projects:
+
+Your AI Engineer Qualifications
+
+AI / LLM / NLP
+
+Built Acera AI Assistant using Python + OpenAI.
+Created an AI assistant prototype that handled natural user interaction.
+Connected AI responses with interface behavior and gesture-style input.
+Experience building AI-powered tools, not just using them.
+
+Python
+
+Used Python in your Reinforcement Learning CTF project.
+Used Python in Snap2Cal.
+Used Python in Acera AI Assistant.
+Used Python for machine learning, AI assistants, simulations, and analysis.
+
+PyTorch
+
+Used PyTorch as the core deep-learning framework in your Reinforcement Learning CTF project.
+Built/trained PPO neural-network policies.
+Used torch tensors throughout the RL environment, training code, networks, dynamics, observations, rewards, and metrics.
+Project treats PyTorch as a platform dependency, especially for CPU/CUDA compatibility.
+
+TensorFlow
+
+Used TensorFlow in Snap2Cal.
+Built a CNN food image classifier.
+Trained and evaluated a model with 85% accuracy.
+
+NumPy
+
+Used NumPy heavily in your RL project across environment logic, RL training, tools, tests, and analysis scripts.
+Supports your simulation math, metrics, and experiment tooling.
+
+pandas
+
+Used pandas for analysis/post-processing scripts in your RL project.
+Used it to load and analyze training metrics, routing behavior, and diagnostic CSVs.
+
+Cloud
+
+Used Azure in your Hope Haven project.
+Built backend services and scheduled alerts with Azure + Quartz.NET.
+Good cloud-adjacent software engineering experience.
+
+SDLC
+
+Designed, tested, debugged, and improved XR features at Blended Reality Systems.
+Worked with designers and artists through a real development cycle.
+Led a four-person software team at Hope Haven.
+Tested gameplay builds, documented bugs, reproduced issues, and confirmed fixes at Pictagor Studios.
+
+CI/CD / DevOps
+
+You have some DevOps-adjacent experience through Azure, backend services, testing, and project structure.
+I would not oversell CI/CD unless you have GitHub Actions, automated tests, deployment pipelines, or CI workflows you can point to.
+
+Machine Learning
+
+Built a TensorFlow CNN classifier in Snap2Cal.
+Built a multi-agent reinforcement learning system using PPO.
+Evaluated win rate, policy stability, generalization, and held-out opponent performance.
+Worked with CNNs, PPO, policy training, simulation evaluation, and ML metrics.
+
+Agentic Systems
+
+Built Acera, an AI assistant prototype that connected AI responses with user input and interface behavior.
+Built RL agents that learn coordinated attack, defense, interception, and team behavior.
+Strong fit for “agentic” because you have both assistant-style agents and simulation-trained autonomous agents.
+
+RAG / LangChain / scikit-learn
+
+I would not list these unless you actually used them.
+You already qualify through ML, pandas, PyTorch, TensorFlow, PPO, and agentic systems.
+
+Explain technical concepts to non-technical people
+
+GameDev.tv technical support: helped students solve programming and game-development issues with clear troubleshooting steps.
+Podcast host: interviewed 150+ game developers for a large audience.
+Hope Haven: translated stakeholder needs into software features.
+This is one of your strongest qualifications.
